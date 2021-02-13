@@ -5,14 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="script.js" type="text/js" /> -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <title>Form Template</title>
 </head>
 
 <body>
-    <div>
-        Form Template
-    </div>
 
+    <!-- <div class="borderCorner1"></div> -->
+
+    <div class="main">
+
+        <div id="div1">
+            <div><span>Company</span>Name</div>
+
+            <div id="signupForm">
+                <div>
+                    <h1 class="div1-heading">Sign in to Account</h1>
+                    <div id="div-green-border"></div>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-facebook icon" aria-hidden="true"></i>
+                    <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus icon" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p>or use your email account</p>
+                </div>
+                <div>
+                    <form onsubmit="submit()">
+                        <div class="form-field">
+                            <input type="email" placeholder=" " class="form-input" />
+                            <label>Email</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="password" placeholder=" " class="form-input" />
+                            <label>Password</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="formPassword">
+                    <div>
+                        <input type="checkbox" id="rememberMe" />
+                        <label>remember me</label>
+                    </div>
+                    <p style="margin: 0;">Forget Password?</p>
+                </div>
+
+                <div style="margin: 10px">
+                    <button class=" signInButton">Sign In</button>
+                </div>
+
+                <div class="footer">
+                    <p>Privacy policy</p>
+                    <div></div>
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="div2">
+            <h1>Hello, Friend!</h1>
+            <div id="div-white-border"></div>
+            <span>Fill up personal information and </span>start journey with us.
+            <button>Sign Up</button>
+        </div>
+    </div>
+    <!-- <div class="borderCorner2"></div> -->
 </body>
 
 </html>
